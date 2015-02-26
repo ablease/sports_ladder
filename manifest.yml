@@ -1,0 +1,7 @@
+
+applications:
+- name:    sports-ladder
+  host:    sports-ladder
+  memory:  128M
+  command: node server.js
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
